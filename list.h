@@ -1,3 +1,6 @@
+#ifndef LIST_H
+#define LIST_H
+
 #include <math.h>
 #include <time.h>
 #include <stdio.h>
@@ -524,3 +527,5 @@ int count(List list, int value){
     }
     return freq;
 }
+
+#endif // LIST_H
